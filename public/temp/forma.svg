@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-598ab967-8ae8-446b-9c99-6e408ca64c7f" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="199.8" height="199.8" viewBox="0 0 199.8 199.8">
+  <defs>
+    <style>
+      .uuid-8d73781d-dfec-49cb-a801-988dac511d44 {
+        opacity: .5;
+      }
+
+      .uuid-7fcb285e-b81c-49a8-bd74-bafc2d99fca2 {
+        fill: #f9e925;
+      }
+    </style>
+  </defs>
+  <g id="uuid-43c7e1b0-ecac-45fe-a42b-4519772c9450" data-name="HOME">
+    <g class="uuid-8d73781d-dfec-49cb-a801-988dac511d44">
+      <path class="uuid-7fcb285e-b81c-49a8-bd74-bafc2d99fca2" d="M154.1,45.7V0h-24.1l-8.3,45.7h-5.1L107.9,1.9h-16.5l-8.3,43.7h-5.4L69.1,0h-23.4V45.7H0v24.1l45.7,8.3v5.1L1.9,91.9v16.5l43.7,8.3v5.4L0,130.7v23.4H45.7v45.7h24.1l8.3-45.7h5.1l8.6,43.7h16.5l8.3-43.7h5.4l8.7,45.7h23.4v-45.7h45.7v-24.1l-45.7-8.3v-5.1l43.7-8.6v-16.5l-43.7-8.3v-5.4l45.7-8.7v-23.4h-45.7Zm-40,68.4h-28.4v-28.4h28.4v28.4Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-71b3d708-7236-4c24-a144-4bdd5e13d7fd" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="312.2" height="312.2" viewBox="0 0 312.2 312.2">
+  <defs>
+    <style>
+      .uuid-bd6ad41e-a7a9-4dbe-87f0-4e776606bb3f {
+        fill: #f9e925;
+      }
+    </style>
+  </defs>
+  <g id="uuid-0ba247dc-4758-4c8f-b190-24710b8bf6b7" data-name="HOME">
+    <path class="uuid-bd6ad41e-a7a9-4dbe-87f0-4e776606bb3f" d="M240.8,71.4V0h-37.7l-13,71.4h-8L168.6,3h-25.7l-12.9,68.3h-8.5L107.9,0h-36.5V71.4H0v37.7l71.4,13v8L3,143.5v25.7l68.3,12.9v8.5L0,204.3v36.5H71.4v71.4h37.7l13-71.4h8l13.4,68.3h25.7l12.9-68.3h8.5l13.6,71.4h36.5v-71.4h71.4v-37.7l-71.4-13v-8l68.3-13.4v-25.7l-68.3-12.9v-8.5l71.4-13.6v-36.5h-71.4Zm-62.5,106.9h-44.4v-44.4h44.4v44.4Z"/>
+  </g>
+</svg>
