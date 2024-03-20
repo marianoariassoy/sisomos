@@ -1,3 +1,4 @@
+import Footer from './Footer'
 import Header from './Header'
 // import NavMobile from './NavMobile'
 
@@ -7,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Header />
       {/* <NavMobile /> */}
       <main>{children}</main>
-      <footer></footer>
+      <Footer />
     </>
   )
 }

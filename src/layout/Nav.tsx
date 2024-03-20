@@ -4,7 +4,9 @@ import Social from '../layout/Social'
 const Nav = () => {
   return (
     <div className='flex justify-center pt-12'>
-      <Social />
+      <div className='absolute top-0'>
+        <Social />
+      </div>
       <nav className='gap-x-5 flex text-secondary text-sm'>
         {menu.map((item, index) => (
           <a

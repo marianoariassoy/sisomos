@@ -2,7 +2,7 @@ import { social } from '../components/data'
 
 const Social = () => {
   return (
-    <nav className='flex gap-x-2 items-center absolute top-0 m-auto text-secondary'>
+    <nav className='flex gap-x-2 items-center m-auto text-secondary'>
       {social.map((item, index) => (
         <a
           key={index}

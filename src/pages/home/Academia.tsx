@@ -5,7 +5,7 @@ const Academia = () => {
     {
       tag: 'Oferta',
       title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=0Y6VWc4ZPjA',
+      video: 'https://www.youtube.com/watch?v=Fo7omZ03szI',
       desctiption:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
       price: '100'
@@ -13,7 +13,7 @@ const Academia = () => {
     {
       tag: 'Oferta',
       title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=0Y6VWc4ZPjA',
+      video: 'https://www.youtube.com/watch?v=diODgDvByNo',
       desctiption:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
       price: '100'
@@ -21,14 +21,14 @@ const Academia = () => {
     {
       tag: 'Oferta',
       title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=0Y6VWc4ZPjA',
+      video: 'https://www.youtube.com/watch?v=Ko3qDvK_9cY',
       desctiption:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
       price: '100'
     }
   ]
   return (
-    <section className='pb-14 mb-14 shadow-md relative'>
+    <section className='pb-14 mb-14 shadow-lg relative'>
       <div className='w-full m-auto max-w-5xl px-6 flex flex-col gap-y-12'>
         <div className='text-center flex flex-col gap-y-3'>
           <h1 className='text-2xl font-semibold'>Academia</h1>
@@ -37,7 +37,7 @@ const Academia = () => {
             natus.
           </h2>
         </div>
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-3 gap-6'>
           {data.map((item, index) => (
             <AcademiaItem
               key={index}

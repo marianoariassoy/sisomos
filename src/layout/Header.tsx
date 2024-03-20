@@ -6,7 +6,7 @@ import Sesion from './Sesion'
 
 const Header = () => {
   return (
-    <header className='sticky top-0 bg-white pt-6 z-50 shadow-md mb-12'>
+    <header className='sticky top-0 bg-white pt-6 z-50 shadow-lg mb-12'>
       <div className='w-full m-auto max-w-5xl px-6 flex gap-x-3 justify-between items-start relative'>
         <div className='w-40'>
           <Logo />

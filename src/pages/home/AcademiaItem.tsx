@@ -17,7 +17,7 @@ const AcademiaItem = ({ item }) => {
       </div>
       <div className='text-sm'>{item.desctiption}</div>
       <div className='flex justify-end font-semibold'>${item.price}</div>
-      <button className='bg-primary font-semibold p-2 transition-colors rounded-md text-sm hover:bg-black/80 hover:text-white'>
+      <button className='bg-primary font-semibold p-2 transition-colors rounded-lg text-sm hover:bg-black/80 hover:text-white'>
         Comprar
       </button>
     </article>

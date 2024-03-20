@@ -15,13 +15,13 @@ const Hero = () => {
     }
   ]
   return (
-    <section className='pb-14 mb-14 shadow-md relative'>
+    <section className='pb-14 mb-14 shadow-lg relative'>
       <div className='w-full m-auto max-w-5xl px-14 flex flex-col gap-y-12'>
         <div className='text-xl font-medium text-center max-w-md m-auto'>
           Para nosotras vos y tu proyecto son importantes. <br />
           Somos una empresa que se adapta a las necesidades del cliente.
         </div>
-        <div className='w-full grid grid-cols-2 gap-x-20 relative'>
+        <div className='w-full grid grid-cols-2 gap-x-12 relative'>
           {data.map((item, index) => (
             <HeroItem
               key={index}
