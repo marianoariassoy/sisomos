@@ -56,7 +56,7 @@ const FormContacto = () => {
       'Otros'
     ],
     amount: '¿Cuánto podes invertir en publicidad?',
-    ig: 'Usuario de IG de tu empresa*',
+    ig: 'Instagram de tu empresa*',
     web: 'Sitio web de tu empresa',
     message: 'Mensaje',
     error: 'Se produjo un error al enviar el mensaje',
@@ -66,15 +66,15 @@ const FormContacto = () => {
   }
 
   const Error = () => {
-    return <div className='text-sm text-primary font-medium'>{texts.required}</div>
+    return <div className='text-sm text-black/60'>{texts.required}</div>
   }
 
   return (
     <div className='lg:pr-12'>
       {error ? (
-        <div className='text-xl text-primary font-medium'>{texts.error}</div>
+        <div className='text-secondary'>{texts.error}</div>
       ) : sended ? (
-        <div className='text-primary font-medium text-xl'>{texts.success}</div>
+        <div className='text-secondary'>{texts.success}</div>
       ) : (
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className='flex flex-col gap-y-3'>
@@ -177,7 +177,7 @@ const FormContacto = () => {
               ) : (
                 <button
                   type='submit'
-                  className='bg-primary text-secondary font-bold h-10 w-60 transition-colors hover:bg-black/80 hover:text-white'
+                  className='bg-primary text-secondary font-bold h-10 w-60 transition-colors hover:bg-black/80 hover:text-white rounded-lg'
                 >
                   {texts.send}
                 </button>

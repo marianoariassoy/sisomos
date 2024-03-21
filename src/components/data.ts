@@ -2,19 +2,24 @@ import { Facebook, Instagram, Youtube, Linkedin, Email } from './icons'
 
 export const menu = [
   {
-    title: 'Home'
+    title: 'Home',
+    url: '#home'
   },
   {
-    title: 'Academia'
+    title: 'Academia',
+    url: '#academia'
   },
   {
-    title: 'Servicios'
+    title: 'Servicios',
+    url: '#servicios'
   },
   {
-    title: 'Nosotras'
+    title: 'Nosotras',
+    url: '#nosotras'
   },
   {
-    title: 'Contacto'
+    title: 'Contacto',
+    url: '#contacto'
   }
 ]
 

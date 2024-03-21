@@ -17,7 +17,7 @@ const Videos = () => {
   ]
 
   return (
-    <section className='grid grid-cols-3 gap-6'>
+    <section className='grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6'>
       {data.map((item, index) => (
         <article
           key={index}

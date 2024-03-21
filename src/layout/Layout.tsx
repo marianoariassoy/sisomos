@@ -1,12 +1,12 @@
 import Footer from './Footer'
 import Header from './Header'
-// import NavMobile from './NavMobile'
+import NavMobile from './NavMobile'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Header />
-      {/* <NavMobile /> */}
+      <NavMobile />
       <main>{children}</main>
       <Footer />
     </>

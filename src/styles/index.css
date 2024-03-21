@@ -35,6 +35,9 @@ body {
   background-color: var(--color-gray-2);
 }
 
+.anchor-main:hover {
+  background: var(--color-primary);
+}
 .anchor-main::after {
   content: '';
   display: block;

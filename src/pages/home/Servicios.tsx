@@ -30,13 +30,16 @@ const Servicios = () => {
     }
   ]
   return (
-    <section className='pb-14 shadow-lg z-10'>
-      <div className='w-full m-auto max-w-5xl px-6 flex flex-col gap-y-12'>
-        <div className='text-xl font-medium'>
+    <section
+      className='pb-14 shadow-lg z-10'
+      id='servicios'
+    >
+      <div className='w-full m-auto max-w-5xl px-6 flex flex-col gap-y-6 lg:gap-y-12'>
+        <div className='lg:text-xl'>
           Tu Visión, nuestra Prioridad: No solo son servicios, es una experiencia personalizada. Adaptamos las
           estrategias para alinearlas con la visión y objetivos de tu negocio.
         </div>
-        <div className='grid grid-cols-2 gap-y-12 gap-x-24'>
+        <div className='grid lg:grid-cols-2 gap-y-6 lg:gap-y-12 gap-x-24'>
           {data.map((item, index) => (
             <ServiciosItem
               key={index}
@@ -56,9 +59,8 @@ const Servicios = () => {
             </div>
           </div>
         </div>
-        <div>
-          <Videos />
-        </div>
+
+        <Videos />
       </div>
     </section>
   )

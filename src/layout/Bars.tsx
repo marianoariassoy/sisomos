@@ -8,7 +8,7 @@ const Bars = () => {
 
   return (
     <div
-      className='bars lg:hidden hover:text-gray-500'
+      className='bars lg:hidden hover:text-gray-500 mb-6'
       onClick={OpenMenu}
     >
       <span></span>

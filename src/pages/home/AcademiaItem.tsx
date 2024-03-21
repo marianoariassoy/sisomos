@@ -4,7 +4,7 @@ const AcademiaItem = ({ item }) => {
   return (
     <article className='flex flex-col gap-y-3'>
       <div className='flex flex-col gap-y-1 items-start'>
-        <span className='bg-primary p-2 rounded-md text-xs font-semibold uppercase'>{item.tag}</span>
+        <span className='bg-primary py-2 px-6 rounded-md text-xs font-semibold uppercase'>{item.tag}</span>
         <h2 className='font-semibold'>{item.title}</h2>
       </div>
 

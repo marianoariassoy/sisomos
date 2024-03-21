@@ -4,10 +4,10 @@ const NosotrasItem = ({ item }) => {
       <img
         src={item.image}
         alt={item.title}
-        className='w-full'
+        className='w-3/5 lg:w-full'
       />
       <div>
-        <h2 className='font-semibold'>{item.title}</h2>
+        <h2 className='font-semibold mb-3'>{item.title}</h2>
         <p className='text-sm mb-3'>{item.description}</p>
         <p className='text-sm font-semibold'>{item.footer}</p>
       </div>
