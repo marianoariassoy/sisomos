@@ -1,34 +1,19 @@
 import ServiciosItem from './ServiciosItem'
 import Videos from './Videos'
+import useFetch from '../../hooks/useFetch'
+import Loader from '../../components/Loader'
 
 const Servicios = () => {
-  const data = [
-    {
-      title: 'Social Media',
-      desctiption:
-        'Conquista las plataformas digitales con estrategias innovadoras. Creamos conexiones auténticas que cautivan a tu audiencia, generando impacto real.'
-    },
-    {
-      title: 'Community Management',
-      desctiption:
-        'Administramos la comunidad online y gestionamos la identidad y la imagen de marca, creando y manteniendo relaciones estables y duraderas con sus clientes, sus fans en internet.'
-    },
-    {
-      title: 'Branding',
-      desctiption:
-        'Forjamos identidades que trascienden. Desde la esencia hasta la estampa visual, construimos marcas que perduran en la mente de tus clientes, dejando una impresión inolvidable.'
-    },
-    {
-      title: 'Paid Media',
-      desctiption:
-        'Potenciamos tus ventas y tu imagen. Diseñamos campañas inteligentes y atractivas que posicionan tu marca en el epicentro de la atención.'
-    },
-    {
-      title: 'Prensa y difusión',
-      desctiption:
-        'Tu presencia en línea, impecable y funcional. Creamos sitios web impactantes que no solo cautivan visualmente, sino que también potencian la experiencia del usuario, convirtiendo visitantes en clientes.'
-    }
-  ]
+  const { data, loading } = useFetch(`/servicios`)
+
+  if (loading) {
+    return (
+      <section className='py-20'>
+        <Loader />
+      </section>
+    )
+  }
+
   return (
     <section
       className='pb-14 shadow-lg z-10'

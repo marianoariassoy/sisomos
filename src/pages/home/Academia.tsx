@@ -1,32 +1,18 @@
 import AcademiaItem from './AcademiaItem'
+import useFetch from '../../hooks/useFetch'
+import Loader from '../../components/Loader'
 
 const Academia = () => {
-  const data = [
-    {
-      tag: 'Oferta',
-      title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=Fo7omZ03szI',
-      desctiption:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
-      price: '100'
-    },
-    {
-      tag: 'Oferta',
-      title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=diODgDvByNo',
-      desctiption:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
-      price: '100'
-    },
-    {
-      tag: 'Oferta',
-      title: 'Lorem ipsum dolor sit amet',
-      video: 'https://www.youtube.com/watch?v=Ko3qDvK_9cY',
-      desctiption:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non natu.',
-      price: '100'
-    }
-  ]
+  const { data, loading } = useFetch(`/cursos`)
+
+  if (loading) {
+    return (
+      <section className='py-20'>
+        <Loader />
+      </section>
+    )
+  }
+
   return (
     <section
       className='pb-14 mb-14 shadow-lg relative'

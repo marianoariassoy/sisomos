@@ -26,22 +26,22 @@ export const menu = [
 export const social = [
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/',
+    url: 'https://www.facebook.com/profile.php?id=61556636154122&mibextid=LQQJ4d',
     icon: Facebook
   },
   {
     name: 'Instagram',
-    url: 'https://www.instagram.com/',
+    url: 'https://www.instagram.com/sisomosagencia',
     icon: Instagram
   },
   {
     name: 'Youtube',
-    url: 'https://www.youtube.com/',
+    url: 'https://youtube.com/@SiSomosAgencia?si=zTRWhVtocSbYrHI7',
     icon: Youtube
   },
   {
     name: 'Linkedin',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/company/s%C3%AD-somos-agencia-de-comunicaci%C3%B3n-digital/',
     icon: Linkedin
   },
   {
