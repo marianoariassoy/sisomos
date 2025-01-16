@@ -11,9 +11,10 @@ const AcademiaItem = ({ item }) => {
       </div>
       <div className='aspect-video'>
         <ReactPlayer
-          width='100%'
-          height='100%'
           url={item.video}
+          controls
+          width='100%'
+          height={180}
         />
       </div>
       <div className='text-sm'>{item.text}</div>

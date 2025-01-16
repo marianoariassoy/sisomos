@@ -6,12 +6,12 @@ export const menu = [
     url: '#home'
   },
   {
-    title: 'Academia',
-    url: '#academia'
-  },
-  {
     title: 'Servicios',
     url: '#servicios'
+  },
+  {
+    title: 'Clientes',
+    url: '#clientes'
   },
   {
     title: 'Nosotras',

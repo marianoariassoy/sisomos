@@ -17,6 +17,7 @@
     "react-head": "^3.4.2",
     "react-hook-form": "^7.51.1",
     "react-player": "^2.15.1",
+    "react-slideshow-image": "^4.3.2",
     "react-spinners": "^0.13.8",
     "wouter": "^3.1.0"
   },

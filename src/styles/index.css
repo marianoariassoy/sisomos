@@ -34,7 +34,6 @@ body {
 .bg-gray-2 {
   background-color: var(--color-gray-2);
 }
-
 .anchor-main:hover {
   background: var(--color-primary);
 }

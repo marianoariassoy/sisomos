@@ -1,16 +1,16 @@
 import Layout from '../../layout/Layout'
-import Academia from './Academia'
+import Clientes from './Clientes'
 import Contacto from './Contacto'
-import Hero from './Hero'
+import HeroSlider from './HeroSlider'
 import Nosotras from './Nosotras'
 import Servicios from './Servicios'
 
 const index = () => {
   return (
     <Layout>
-      <Hero />
-      <Academia />
+      <HeroSlider />
       <Servicios />
+      <Clientes />
       <Nosotras />
       <Contacto />
     </Layout>

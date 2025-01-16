@@ -1,9 +1,9 @@
-import AcademiaItem from './AcademiaItem'
+import ClientesItem from './ClientesItem'
 import useFetch from '../../hooks/useFetch'
 import Loader from '../../components/Loader'
 
-const Academia = () => {
-  const { data, loading } = useFetch(`/cursos`)
+const Clientes = () => {
+  const { data, loading } = useFetch(`/clientes`)
 
   if (loading) {
     return (
@@ -15,20 +15,17 @@ const Academia = () => {
 
   return (
     <section
-      className='pb-14 mb-14 shadow-lg relative'
-      id='academia'
+      className='pb-14 mb-14 mt-14 shadow-lg relative'
+      id='clientes'
     >
       <div className='w-screen lg:w-full m-auto max-w-5xl px-6 flex flex-col gap-y-6 lg:gap-y-12'>
         <div className='text-center flex flex-col gap-y-3'>
-          <h1 className='text-2xl font-semibold'>Academia</h1>
-          <h2 className='font-medium'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officiis excepturi, qui enim quisquam non
-            natus. 1
-          </h2>
+          <h1 className='text-2xl font-semibold'>Nuestros Clientes</h1>
+          <h2 className='font-medium'>Conoce a los clientes que han confiado en nosotros</h2>
         </div>
         <div className='grid lg:grid-cols-3 gap-6'>
           {data.map((item, index) => (
-            <AcademiaItem
+            <ClientesItem
               key={index}
               item={item}
             />
@@ -39,4 +36,4 @@ const Academia = () => {
   )
 }
 
-export default Academia
+export default Clientes

@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import Logo from './Logo'
 import Nav from './Nav'
-import Sesion from './Sesion'
 import scroll from '../utils/scroll'
+import Social from '../layout/Social'
 
 const Header = () => {
   useEffect(() => {
@@ -11,8 +11,8 @@ const Header = () => {
 
   return (
     <>
-      <header className='sticky top-0 bg-white pt-8 z-50 shadow-lg mb-28 lg:mb-12'>
-        <div className='w-full m-auto max-w-5xl px-6 flex gap-x-3 justify-between items-start relative'>
+      <header className='sticky top-0 bg-white pt-8 z-50 shadow-lg'>
+        <div className='w-full m-auto max-w-6xl px-6 flex gap-x-3 justify-between items-start relative'>
           <div className='lg:w-52'>
             <Logo />
           </div>
@@ -20,7 +20,7 @@ const Header = () => {
             <Nav />
           </div>
           <div className='w-52 justify-end pt-10 hidden lg:flex'>
-            <Sesion />
+            <Social />
           </div>
         </div>
       </header>

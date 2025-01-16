@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='px-6 py-8 text-sm text-center flex flex-col gap-y-1'>
-        <span>2024 © Si somos. Todos los derechos reservados</span>
+        <span>2025 © Si somos. Todos los derechos reservados</span>
         <a
           href='http://mcdisenio.com.ar/'
           target='_blank'
